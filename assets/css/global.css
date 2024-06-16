@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    color: #828282;
+}
+
+a {
+    text-decoration: none;
+}
+
+i{
+    display: grid;
+    place-items: center;
+}
+body {
+    background-color: #f0f6f8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    font-size: 26px;
+    color: white;
+}
+
+header,
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1.3rem;
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+
+}
+
+header img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.control {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+nav {
+    width: 90px;
+    height: 50%;
+    margin-left: 1.6rem;
+    display: grid;
+    place-items: center;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 0 15px #00000036;
+}
+
+nav ul {
+    flex-direction: column;
+    gap: 4rem;
+}
+
+nav ul i {
+    color: #0C7972;
+}
+
+footer {
+    padding: 0 1rem;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0%;
+    width: 100%;
+    background-color: #0C7972;
+}
+
+footer i {
+    font-size: 28px;
+    color: white;
+}
+
+footer .github{
+    background-color: white;
+    padding: 12px 14px;
+    border-radius: 25px;
+    align-items: center;
+    gap: 1rem;
+    font-size: 12px;
+    display: flex;
+}
+footer .github i,
+footer .github a {
+    font-weight:600;
+    color: #0C7972;
+}

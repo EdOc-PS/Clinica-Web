@@ -1,0 +1,129 @@
+.content {
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    gap: 1.2rem;
+    justify-content: center
+}
+
+video {
+    width: 400px;
+    border-radius: 25px;
+}
+
+.aprovation_content {
+    width: 400px;
+    height: 225px;
+    padding: 1.5rem;
+    background-color: #0C7972;
+    border-radius: 25px;
+}
+
+.aprovation_text_content span {
+    color: #A5CECB !important;
+    font-size: 14px;
+
+}
+
+.aprovation_text_content h1 {
+    font-size: 58px;
+    color: white;
+}
+
+.bar {
+    width: 80%;
+    margin: 6px 0;
+    background-color: #0b5a55;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 25px;
+}
+
+.bar span {
+    width: 97%;
+    background: linear-gradient(90deg, #1eb5ab 0%, #65d885 100%);
+    border-radius: 25px;
+    height: 20px;
+}
+
+.text_content, .prof_text_content {
+    margin-bottom: .5rem;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: white;
+    width: 500px;
+}
+
+.text_content:first-child {
+    height: 300px;
+    padding-bottom: 0;
+}
+
+
+.text_content:last-child {
+    height: 145px;
+}
+
+.text_content h1 {
+    font-size: 38px;
+    color: #535353;
+}
+
+.info_control {
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+
+.text_content img {
+    width: 182px;
+}
+
+.text_content ul {
+    margin: 14px 0;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.text_content li {
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 8px 10px;
+    color: #0C7972;
+    font-weight: 700;
+    background-color: #f0f6f8;
+}
+
+.prof_content {
+    align-items: end;
+    display: flex;
+    padding-bottom: 0;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: .5rem 1rem; 
+    background: linear-gradient(135deg, #0c7972ce 0%, #1f2b448f 100%),
+                url('https://maislaudo.com.br/wp-content/uploads/2019/11/como-abrir-um-consultorio-medico.jpg');
+    background-size: cover;
+    width: 500px;
+    height: 450px;
+}
+
+.prof_text_content{
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.prof_text_content h1{
+    font-size: 60px;
+    color: #535353;
+}
+.prof_text_content span{
+    font-size: 14px;
+    color: #535353;
+}
+.prof_text_content img{
+    width: 110px;
+}
