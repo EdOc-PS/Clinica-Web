@@ -1,0 +1,44 @@
+.container {
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.address_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.text_content {
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+.text_content h1 {
+    font-size: 38px;
+    color: #535353;
+}
+.text_content img {
+    width: 140px;
+}
+
+.info_control {
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.address_container video{
+    width: 500px;
+    border-radius: 25px;
+}
+iframe {
+    border: 0;
+    border-radius: 25px;
+    width: 600px;
+    height: 485px;
+}

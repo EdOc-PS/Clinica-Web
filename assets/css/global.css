@@ -40,7 +40,14 @@ footer {
 header {
     width: 100%;
     background-color: transparent;
+    justify-content: space-between;
+    padding-left: 2rem;
 
+}
+header h1{
+    font-size: 40px;
+    color: #535353;
+    font-weight: 800;
 }
 
 header img {
